@@ -1,57 +1,32 @@
-# iona-assessment
 
-This template should help get you started developing with Vue 3 in Vite.
+# Iona Bring Home Assessment
 
-## Recommended IDE Setup
+### Clone the project
+```
+> git clone https://github.com/bmaraon/iona-assessment.git
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Build the application
+```
+> cd iona-assessment
+> npm install
+> npm run dev
 
-```sh
-npm run dev
+  VITE v5.1.3  ready in 3132 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
 ```
 
-### Compile and Minify for Production
+### Tech stack
+- vue 3
+- vue-router 4.x
+- bootstrap-vue 2.23.0
+- axios
+- pinia (state management)
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Note
+There is currently an issue with using bootstrap-vue with vue 3.
+Hence, the warnings that can be seen in the console.
